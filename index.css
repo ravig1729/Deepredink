@@ -1,0 +1,35 @@
+body, html{
+    background-image: url("./hospital.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.dent{
+    position:absolute;
+    top:50px;
+    left:50px;
+}
+.menu{
+    position: absolute;
+    top:75px;
+    left:90%;
+    transition: transform 0.5s;
+}
+.menu:hover{
+    transform: rotate(90deg);
+}
+.text{
+    color:azure;
+    position: absolute;
+    top:70%;
+    left:50px;
+    text-transform: capitalize;
+    text-transform: uppercase;
+    font-size:xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.message{
+    position: absolute;
+    top:80%;
+    left:90%;
+}
